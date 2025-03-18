@@ -5,9 +5,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;   
+    background-image: url(./assets/background-4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 main {
     text-align: center;
+    width: 90%;
+    max-width: 400px;
 }
 .avatar {
     width: 100px;
@@ -24,6 +30,7 @@ main {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;  
+    transition: 10s;
 }
 .sosmed-icon {
     width: 42px;
@@ -46,4 +53,10 @@ main {
 
 .sosmed:hover {
     background-color: cyan;
+}
+
+.sosmed-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
